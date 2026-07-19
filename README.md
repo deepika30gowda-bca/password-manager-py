@@ -22,13 +22,11 @@ SecurePass is a lightweight, local-first Python console application designed to 
 
 ---
 
-## 📋 How It Works & Evaluation Rubric Mapping
+## 📋 How It Works
 
 1. **Option 1: Add a Password** * Captures the target application, account identifier, and password.
-   * *Rubric Match:* Fulfills **Programming Logic** and triggers the **Innovation Feature** if you let it auto-generate a strong password string.
 2. **Option 2: View Passwords**
    * Parses current runtime arrays and prints them in a clean visual table.
-   * *Rubric Match:* Fulfills **User Experience** marks through deliberate alignment configurations.
 3. **Option 3: Exit**
    * Gracefully terminates the terminal execution system loop.
 
