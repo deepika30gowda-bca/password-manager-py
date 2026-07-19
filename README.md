@@ -42,5 +42,5 @@ Make sure you have Python 3 installed on your system.
 ### Running Locally
 1. Clone this repository to your machine:
    ```bash
-   
+   git clone [https://github.com/YOUR_USERNAME/SecurePass-Manager.git](https://github.com/YOUR_USERNAME/SecurePass-Manager.git)
    
