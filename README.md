@@ -1,44 +1,24 @@
 # 🔐 SecurePass — Console Password Manager
 
-SecurePass is a lightweight, local-first Python console application designed to securely manage account credentials. Built as part of a Python Capstone project, it leverages core programming paradigms to solve a real-world problem: **password fatigue and security vulnerabilities due to credential reuse.**
+SecurePass is a local-first Python console application built to securely manage and view account credentials without relying on cloud servers.
 
----
+## 🚀 Features
+* **In-Memory Vaulting:** Manages login data smoothly using a structured list of dictionaries.
+* **Smart Generator (Innovation Feature):** Instantly creates high-entropy, 12-character passwords using alphanumeric characters and symbols.
+* **Tabular Terminal UI (UX Feature):** Formats saved data using precision string padding (`:<15`, `:<20`) for perfectly aligned tables.
+* **Cross-Platform Compatibility:** Environment-optimized to run flawlessly on local machines and restricted online compilers (Programiz/OnlineGDB).
 
-## 🚀 Key Features
+## 🛠️ Core Concepts Demonstrated
+* **String Manipulation:** Character pooling, data parsing, and output alignment layout.
+* **Data Structures:** Key-value dictionary pairing and runtime array indexing.
+* **Programming Logic:** Fail-safe input validation loops and clean conditional branching.
 
-* **In-Memory Vaulting:** Employs an efficient data structure layer utilizing a list of structured dictionaries to manage login records smoothly.
-* **Smart Password Generator (Innovation Feature):** Instantly creates high-entropy, 12-character passwords using alphanumeric characters and symbols if a custom password isn't provided.
-* **Tabular Terminal UI (Enhanced UX):** Formats output using precision string padding rules to ensure perfectly aligned rows and headers.
-* **Sandboxed Compatibility:** Optimized to run flawlessly in all local setups as well as strict, permission-locked online environments (like Programiz or OnlineGDB).
+## 💻 How To Run
 
----
-
-## 🛠️ Tech Stack & Concepts Demonstrated
-
-* **Language:** Python 3.x
-* **Primary Concepts:** * **String Manipulation:** Dynamic padding (`:<15`, `:<20`), data joining, and character pooling.
-  * **Data Layouts:** Key-value pairs matching unique account credentials.
-  * **Control Flow Logic:** Fail-safe validation loops, menu routing branches, and structured system exits.
-
----
-
-## 📋 How It Works
-
-1. **Option 1: Add a Password** * Captures the target application, account identifier, and password.
-2. **Option 2: View Passwords**
-   * Parses current runtime arrays and prints them in a clean visual table.
-3. **Option 3: Exit**
-   * Gracefully terminates the terminal execution system loop.
-
----
-
-## 💻 Setup and Usage Instructions
-
-### Prerequisites
-Make sure you have Python 3 installed on your system. 
-
-### Running Locally
-1. Clone this repository to your machine:
-   ```bash
-   git clone [https://github.com/YOUR_USERNAME/SecurePass-Manager.git](https://github.com/YOUR_USERNAME/SecurePass-Manager.git)
-   
+1. Copy the code from `main.py`.
+2. Paste it into your preferred editor or an online compiler like [Programiz](https://www.programiz.com/python-programming/online-compiler/).
+3. Run the script and interact with the console menu options:
+   * **1:** Add a Password (leave blank to auto-generate)
+   * **2:** View Saved Passwords
+   * **3:** Exit
+   *    
